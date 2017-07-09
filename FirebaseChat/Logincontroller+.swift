@@ -126,7 +126,7 @@ extension LoginController: UIImagePickerControllerDelegate,UINavigationControlle
     
     
     func showAlert(text:String)  {
-        let alert = UIAlertController(title: "My Title", message: text, preferredStyle: UIAlertControllerStyle.alert)
+        let alert = UIAlertController(title: "Attention", message: text, preferredStyle: UIAlertControllerStyle.alert)
         
         // add an action (button)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
